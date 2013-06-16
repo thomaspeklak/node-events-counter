@@ -1,5 +1,5 @@
 {
-    "name": "request-counter",
+    "name": "events-counter",
     "preferGlobal": "true",
     "version": "0.0.0",
     "author": "Thomas Peklak <thomas.peklak@gmail.com>",
