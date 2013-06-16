@@ -6,10 +6,10 @@ module.exports = function (eventEmitter, event) {
         return argv == "rps";
     })) { return; }
 
-    console.log("intializing request per seconds counter");
+    console.log("intializing events per seconds counter");
     this.counter = 0;
     setInterval(function () {
-        console.log(this.counter);
+        console.log(event + ": " + this.counter);
         this.counter = 0;
     }, 1000);
 
