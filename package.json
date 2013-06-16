@@ -27,13 +27,8 @@
     "dependencies" : {
     },
     "devDependencies": {
-        "coffee-script" : "*"
-        , "mocha"       : "*"
+        "mocha"       : "*"
         , "should"      : "*"
-        , "sinon"       : "*"
-        , "supertest"   : "*"
-        , "zombie"      : "*"
-        , "request"     : "*"
     },
     "license": "MIT",
     "engine": {
